@@ -216,21 +216,21 @@ public class GamePanel extends JPanel implements ActionListener {
 	public void setSpeed() {
 		
 		if (applesEaten == 5) {
-			timer.setDelay(75);
+			timer.setDelay(65);
 		}
 		
 		if (applesEaten == 10) {
 			
-			timer.setDelay(70);
+			timer.setDelay(55);
 		} 
 
 		if (applesEaten == 15) {
-			timer.setDelay(65);
+			timer.setDelay(45);
 		} 
 
 		if (applesEaten == 20) {
 
-			timer.setDelay(60);
+			timer.setDelay(35);
 		}
 	}
 	
